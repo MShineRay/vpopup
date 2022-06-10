@@ -1,7 +1,7 @@
 {
-  "name": "vant",
+  "name": "vpopup",
   "version": "3.2.3",
-  "description": "Mobile UI Components built on Vue",
+  "description": "vpopup Mobile UI Components built on Vue",
   "main": "lib/vant.js",
   "module": "lib/vant.es.js",
   "style": "lib/index.css",
@@ -25,13 +25,6 @@
     "test:watch": "vant-cli test --watch",
     "test:coverage": "open test/coverage/index.html"
   },
-  "npm": {
-    "tag": "next"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git@github.com:youzan/vant.git"
-  },
   "keywords": [
     "ui",
     "vue",
@@ -41,7 +34,6 @@
     "component",
     "components"
   ],
-  "author": "youzanfe",
   "license": "MIT",
   "dependencies": {
     "@vant/icons": "^1.7.0",
